@@ -1,5 +1,5 @@
 # UTFInfo
-In this repository you will find the code for the Front-end system of the project:
+In this repository you will find the code for the Back-end system of the project:
 
  <b>UFTINFO: Web platform for displaying informational media.</b>
 
@@ -7,28 +7,34 @@ In this repository you will find the code for the Front-end system of the projec
 
 * Node JS - https://nodejs.org/en/download/
 
-## Installation 
+## Download 
 
 ```bash
-$ git clone https://github.com/thaliasch1/utfinfo-frontend.git
+$ git clone https://github.com/thaliasch1/utfinfo-backend.git
 ```
 
 
 ## Configuration
 
-After cloning the project, you can find the .env file in the project root, where the environment variables are located; In this file it is necessary to update the variable BASE_URL, with the url that is running the back-end, generally: http://localhost:3000
+After cloning the project, you can find the .env file in the project root, where the environment variables are located; 
+In this file it is necessary to update the variable URL and PORT
+URL  = url that is running the back-end, generally: http://localhost, without the port
+
+PORT = the port that is running, usually: 300
 
 In the .env file update: 
 
 
 Running local: 
 ```bash
-BASE_URL="http://localhost:3000"
+PORT=3000
+URL="http://localhost"
 ```
 
 To run on the server use: 
 ```bash
-BASE_URL="http://totens.td.utfpr.edu.br:3000"
+PORT=3000
+URL="http://totens.td.utfpr.edu.br"
 ```
 
 ### Running
@@ -40,13 +46,8 @@ npm i
 ```
 then run the application:
 ```bash
-npm run dev
+npm start
 ```
+After the Back-end is running you can start the Front-end
 
-Then it is possible to access the project through the automatically generated URL displayed in the terminal, usually http://localhost:3001
-
-### Demo
-
-
-![teste](https://user-images.githubusercontent.com/118744259/203845030-734ee406-18df-4750-ace7-d389d5f94ed8.gif)
 
