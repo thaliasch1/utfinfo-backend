@@ -1,5 +1,5 @@
 # utfinfo-backend
-## Neste repositório você encontra o código para os sistemas Front-end ( frontend-tvs-ru ) e Back-end ( backend-tvs-ru ), do projeto <b>UFTINFO: Plataforma web para exibição de mídias informátivas.</b>
+## Neste repositório você encontra o código para o sistema Back-end do projeto <b>UFTINFO: Plataforma web para exibição de mídias informátivas.</b>
 
 * Para rodar o projeto é preciso ter o <b>Node</b> Instalado em sua máquina: https://nodejs.org/en/download/
 
@@ -15,7 +15,10 @@ PORT=3000
 ```
 
 
+
 ### Como rodar o back-end
+
+Clone o projeto e abra o terminal em sua raiz
 
 Primeiro atualize os pacotes:
 
