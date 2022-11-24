@@ -29,6 +29,6 @@ e então rode a aplicação:
 ```bash
 npm start
 ```
-Após o Back-end é preciso rodar o Front-end:
+Após o Back-end estar rodando é preciso rodar o Front-end.
 
 
