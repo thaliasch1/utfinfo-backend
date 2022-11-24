@@ -28,11 +28,4 @@ npm start
 ```
 Após o Back-end é preciso rodar o Front-end:
 
-## Front-end
 
-No arquivo .env do Front-end é preciso modificar a variavel BASE_URL:
-
-```bash
-BASE_URL="http://localhost:3000"
-```
-A BASE_URL precisa ser a <b>url em que o Back-end está rodando, com a porta.</b>
