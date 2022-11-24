@@ -17,7 +17,8 @@ $ git clone https://github.com/thaliasch1/utfinfo-backend.git
 ## Configuration
 
 After cloning the project, you can find the .env file in the project root, where the environment variables are located; 
-In this file it is necessary to update the variable URL and PORT
+In this file it is necessary to update the variable URL and PORT.
+
 URL  = url that is running the back-end, generally: http://localhost, without the port
 
 PORT = the port that is running, usually: 300
