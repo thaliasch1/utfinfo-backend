@@ -1,7 +1,7 @@
 # utfinfo-backend
 Back-end da Aplicação UTFinfo
 # UTFInfo
-### Neste repositório você encontra o código para os sistemas Front-end ( frontend-tvs-ru ) e Back-end ( backend-tvs-ru ), do projeto <b>UFTINFO: Plataforma web para exibição de mídias informátivas.</b>
+## Neste repositório você encontra o código para os sistemas Front-end ( frontend-tvs-ru ) e Back-end ( backend-tvs-ru ), do projeto <b>UFTINFO: Plataforma web para exibição de mídias informátivas.</b>
 
 * Para rodar o projeto é preciso ter o <b>Node</b> Instalado em sua máquina: https://nodejs.org/en/download/
 
